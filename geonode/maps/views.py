@@ -215,7 +215,7 @@ def map_detail(request, mapid, snapshot=None, template='maps/map_detail.html'):
 def map_metadata(
         request,
         mapid,
-        template='maps/map_metadata.html',
+        template='maps/map_metadata.ht`ml',
         ajax=True):
     map_obj = _resolve_map(
         request,
